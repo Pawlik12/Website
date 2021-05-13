@@ -1,0 +1,259 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>PawlikSoft</title>
+    <meta name="description" content="HobbyPawlika">
+    <meta name="author" content="Pawlik">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Pawlik Software</h1>
+    </div>
+    <div class="menu" id="mymenu">
+        <table>
+            <td>
+                <a href="#main">
+                    <h2>Strona Główna</h2>
+                </a>
+            </td>
+            <td>
+                <a href="#models">
+                    <h2>Modele 3D</h2>
+                </a>
+            </td>
+            <td>
+                <a href="#games">
+                    <h2>Gry</h2>
+                </a>
+            </td>
+            <td>
+                <a href="#digitalArt">
+                    <h2>Sztuka cyfrowa</h2>
+                </a>
+            </td>
+        </table>
+    </div>
+    <div class="content">
+        <div id="main"></div>
+        <div class="text">
+            Cześć! Witaj na mojej stronie!
+            <br>Jestem Pawlik, na codzień zajmuję się programowaniem gier i tworzeniem grafiki. O tym właśnie jest ta strona.
+            <hr>
+        </div>
+        <div class="subHeader" id="models">
+            <h2>Modele 3D</h2>
+
+            <!-- I created some sections in which you have like... Glados and those other two models and the text -->
+            <section class="modelsSection">
+                <div class="displayModels">
+                    <div class="field">
+                        <model-viewer src="/Models/Glados.glb" camera-controls skybox-image="/Models/Skybox.png" exposure="0.221" shadow-intensity="1" camera-orbit="-16.17deg 89.34deg 10m" poster="Models/Moonie.png" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 3.861m">
+
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                        </model-viewer>
+                        <div class="text">
+                            Jeden z moich pierwszych (zachowanych) modeli: GLaDOS z gry Portal 2.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text">
+                    Zacząłem tworzyć modele 3d w 2018 roku, w czasie moich początków tworzenia i programowania gier.<br> W pierwszych miesiącach nauki używałem modeli z internetu i układałem je w programie SweetHome3D, programie do aranżacji wnętrz.<br>Ma
+                    on wbudowaną funkcję robienia zdjęć zaprojektowanych pokoi i wykorzystywałem ją do tworzenia statycznych grafik, następnie importowałem te pliki do clickteam fusion, silnika do tworzenia gier 2D<br><br> Od początku inspirowały mnie
+                    horrory wszelkiej maści, szczególnie seria gier five Nights at Freddy's. Dlatego właśnie moją pierwszą grą miał być survival horror.<br> Moją pierwszą stycznością z modelowaniem 3d była propozycja pewnego grafika, który zasugerował
+                    mi stworzenie mojej gry, jednak szybko stracił zainteresowanie i rozpocząłem naukę 3d samodzielnie.
+
+                    <br><br>Pierwszym programem do modelowania jakiego spróbowałem był Cinema 4D, jednak uznałem ten program za zbyt skomplikowany i postanowiłem nauczyć się obsługiwać Blendera, który w tamtym czasie był w wersji 2.79.
+                    <br><br>
+                </div>
+                <div class="text">
+                    Od tamtego czasu wiele się zmieniło, nabrałem doświadczenia i jestem teraz w stanie tworzyć modele stosunkowo szybko i wysokiej jakości.
+                </div>
+            </section>
+            <hr>
+            <section class="modelsSection">
+                <div class="displayModels">
+                    <div class="field">
+                        <model-viewer src="/Models/Moonie.glb" camera-controls skybox-image="/Models/Skybox.png" exposure="0.221" shadow-intensity="1" camera-orbit="-16.17deg 89.34deg 3.861m" poster="Models/Moonie.png" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 3.861m">
+
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                        </model-viewer>
+                        <div class="text">
+                            Model Moonie stworzony do gry.
+                        </div>
+                    </div>
+                </div>
+                <!-- I moved second model to separate div-->
+                <div class="displayModels">
+                    <div class="field">
+                        <model-viewer src="/Models/FNaFBez.glb" camera-controls skybox-image="/Models/Skybox.png" exposure="0.221" shadow-intensity="1" camera-orbit="-16.17deg 89.34deg 3.861m" poster="Models/Moonie.png" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 3.861m">
+
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                        </model-viewer>
+                        <div class="text">
+                            Model Salena stworzony do gry.
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery"> 
+                    
+                    <div class="text">
+                        <h2>Zaciekawiły Cię moje modele?</h2> Może chciałbyś sam spróbować?<br>By zacząć tworzyć grafikę 3D wystarczy pobrać <a href="https://www.blender.org" style="color:darkorange; text-decoration: underline;">Blender</a> za darmo!<br>W internecie jest wiele tutoriali i poradników, ja na tej stronie zaprezentuję też mały przykład jak wygląda praca w blenderze.
+                    </div>
+                    <div class="text">
+                        <br> <h1>Stworzenie przykładowego modelu w blenderze 3D:</h1>
+                    </div>
+                    <div class="field">
+                        <img src="Models/blender1.png">
+                        <div class="text">
+                            Widok na nowo otwarty projekt w blenderze.
+                        </div>
+                    </div><div class="field">
+                        <img src="Models/blender2.png">
+                        <div class="text">
+                            Na początku zaznaczamy kostkę lewym przyciskiem myszy i z okna modyfikatorów (niebieski klucz po prawej) wybieramy "subdivision", po czym klikamy prawym przyciskiem myszy na model i wybieramy "shade smooth".
+                        </div>
+                    </div><div class="field">
+                        <img src="Models/blender3.png">
+                        <div class="text">
+                            Shift+D albo kliknięcie prawym przyciskiem i wybranie opcji "Duplicate objects" zduplikuje obiekt.
+                        </div>
+                    </div><div class="field">
+                        <img src="Models/blender4.png"><div class="text">
+                            Tworzymy nóżki przesuwając kostkę (przycisk g) a następnie zmniejszając ją (przycisk s). Następnie wchodzimy w tryb edycji (tab > edit mode) i klikając ctrl+r dodajemy krawędzie wokół modelu. Następnie przeciągamy je w dół podwójnie klikjąc g i przesuwając myszką. Dodajemy też modyfikator "mirror", z "mirror object" ustawionym na większą kostkę.
+                        </div>
+                        
+                    </div><div class="field">
+                        <img src="Models/blender5.png">
+                        <div class="text">
+                            Używając skalowania, przeciągania oraz dodawania krawędzi tworzym piurka oraz skrzydełka. <br> (podpowiedź - kliknięcie x, y albo z podczas gdy jesteśmy w trybie skalowania, przeciągania albo obracania spowoduje, że wszystkie zmiany odbędą się w osi x, y albo z, zależnie od klikniętego przycisku).
+                        </div>
+                    </div>
+                    <div class="field">
+                        <img src="Models/blender6.png">
+                        <div class="text">
+                            Następnie dodajemy oczka oraz dziubek. 
+                        </div>
+                    </div><div class="field">
+                        <img src="Models/blender7.png">
+                        
+                        <div class="text">
+                            Na samym końcu klikając wybraną tutaj opcję w kształcie kuli tworzymy nowe pole na materiał wciskając "+" znajdujący się po prawej stronie okna. Następnie wyświetli sie opcja "new". Klikamy ją i dodaje to materiał. Wtedy wystarczy zmienić "surface" z "Principled BSDF" na "Emission" oraz zmianę koloru na dowolny.<br> Powtarzamy to dla każdego obiektu i gotowe!
+                        </div>
+                    </div>
+                    <div class="field">
+                        <img src="Models/pass_me_the_blunt.png">
+                        
+                        <div class="text">
+                            Blender oferuje wiele modyfikatorów i opcji, bardzo trudno poznać wszystkie, jednkaże ten program jest na tyle intuicyjny, że znając podstawowe skróty można tworzyć dość skompliowane i ładne modele!<br>Polecam blendera każdemu kogo interesuje grafika 3D.
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </div>
+        <hr>
+        <div class="subHeader" id="games">
+            <h2>Gry</h2>
+            <div class="text">
+                Mimo, że to chęci do tworzenia gier zamiast grania w nie były powodem, dla którego Szedłem w kierunku grafiki, to po paru nieudanych próbach stworzenia i wydania własnych gier zrobiłem sobie przerwę od programowania i skierowałem całą uwagę na grafikę
+                3d. Dopiero w 2019 roku w drugiej klasie liceum powróciła moja chęć do programowania. Zamieniłem używany przeze mnie dotychczas Clickteam Fusion na bardziej popularny program Unity Engine. Od tamtego czasu powstało kilka pomniejszych gier,
+                tworzonych głównie na potrzeby konkursowe lub z czystej chęci.
+            </div>
+            <div class="timeline">
+                <div class="field">
+                    <div class="text">
+                        <h1>Claustrophobia</h1>
+                    </div>
+                    <img src="Models/teaser.png">
+                    <img src="Models/biuro_.png">
+                    <div class="text">
+                        Claustrophobia była pierwszą grą którą miałem nadzieję skończyć. Tworzona była na silniku Clickteam Fusion, ale grafik opuścił projekt i byłem zmuszony nauczyć się modelowania, zanim mógłbym kontynuować projetk. Do dziś jednak nie udało mi się ukończyć
+                        gry.
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="text">
+                        <h1>CUBE-Testing area one</h1>
+                    </div>
+                    <a href="https://pawlik3d.itch.io/cube-testing-area-one" target="_blank" rel="noopener noreferrer"> <img src="Models/CUBE.png"></a>
+                    <div class="text">
+                        CUBE-Testing area one była pierwszą grą jaką stworzyłem na jakiś konkurs.<br> Polega na przenoszeniu kostek z miejsca na miejsce, a została stworzona w pięć dni.
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="text">
+                        <h1>Last Chrismtas</h1>
+                    </div>
+                    <a href="https://pawlik3d.itch.io/last-christmas" target="_blank" rel="noopener noreferrer"> <img src="Models/LastChristmass.png"></a>
+                    <div class="text">
+                        Last Christmas to gra w której wcielasz się w elfa, próbującego pozbierać porozrzucane prezenty by uratować święta.<br> Gra została stworzona w tydzień, z okazji świątecznego konkursu.
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="text">
+                        <h1>A Murder In Time</h1>
+                    </div>
+                    <a href="https://pawlik3d.itch.io/a-murder-in-time" target="_blank" rel="noopener noreferrer"> <img src="Models/J4dTXg.png"></a>
+                    <div class="text">
+                        A Murder In Time jest grą w której podążasz śladem mordercy odpowiedzialnego za śmierć twojej rodziny. Nie jest to jednak zwykła sprawa, którą tak słynny detektyw jak ty potrafiłby bez problemu rozwikłać. Morderca zdaje się podróżować w czasie, umykając
+                        przed tobą w ostatniej chwili.<br><br> Gra ta została stworzona w tydzień na konkurs.
+                    </div>
+                </div>
+            </div>
+            <div class=text>
+                Obecnie pracuję nad grą eksploracyjną o szkole.
+            </div>
+        </div>
+        <hr>
+        <div class="subHeader" id="digitalArt">
+            <h2>Sztuka Cyfrowa</h2>
+
+            <div class=text>
+                W 2021 powróciłem do mojej pasji z młodości bądącej rysowaniem. Zamiast używać papieru zainteresowałem się pracą cyfrową, w pełni na komputerze. Używam takich programów jak Medibang Pro oraz Clip Studio Paint. Niedawno zakupiłem również swój pierwszy
+                tablet graficzny.
+                
+            </div>
+            <div class="gallery"> 
+                <div class="field">
+                    <img src="Models/image1.png">
+                </div>
+                <div class="field">
+                    <img src="Models/Image2.png">
+                </div>
+                <div class="field">
+                    <img src="Models/Image3.jpg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="jscript.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@v0.7.2/dist/model-viewer.js">
+    </script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer@v0.7.2/dist/model-viewer-legacy.js">
+    </script>
+    
+    </script>
+</body>
+
+</html>
